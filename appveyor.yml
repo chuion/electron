@@ -31,7 +31,7 @@ version: 1.0.{build}
 build_cloud: electron-16-core2
 # TODO: base-electron can't build jobs on it's own,
 # create a new default image here
-image: base-electron
+image: electron-test-default-100.0.4855.0
 environment:
   GIT_CACHE_PATH: C:\Users\appveyor\libcc_cache
   ELECTRON_OUT_DIR: Default
